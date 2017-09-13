@@ -24,7 +24,10 @@
             'app.sample',
 			
 			//Tutorials
-			'app.tutorials'
+			'app.tutorials',
+			
+			 // Sitaram
+            'app.sitaram',
 
         ]);
 })();
