@@ -22,6 +22,9 @@
 
             // Sample
             'app.sample',
+			
+			//Tutorials
+			'app.tutorials'
 
         ]);
 })();
