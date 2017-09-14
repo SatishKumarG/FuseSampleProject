@@ -3,16 +3,19 @@
         "imgGallery": "Image Gallery"
     },
     "images":[
-        {"src": "/assets/images/gallery/1.JPEG"},
-        {"src": "/assets/images/gallery/2.JPEG"},
-        {"src": "/assets/images/gallery/3.JPEG"},
-        {"src": "/assets/images/gallery/4.JPEG"},
-        {"src": "/assets/images/gallery/5.JPEG"},
-        {"src": "/assets/images/gallery/6.JPEG"},
-        {"src": "/assets/images/gallery/7.JPEG"},
-        {"src": "/assets/images/gallery/8.JPEG"},
-        {"src": "/assets/images/gallery/10.JPEG"},
-        {"src": "/assets/images/gallery/11.JPEG"},
-        {"src": "/assets/images/gallery/12.JPEG"}
+        {"src": "/assets/images/gallery/0.JPG"},
+        {"src": "/assets/images/gallery/1.JPG"},
+        {"src": "/assets/images/gallery/2.JPG"},
+        {"src": "/assets/images/gallery/3.JPG"},
+        {"src": "/assets/images/gallery/4.JPG"},
+        {"src": "/assets/images/gallery/5.JPG"},
+        {"src": "/assets/images/gallery/6.JPG"},
+        {"src": "/assets/images/gallery/7.JPG"},
+        {"src": "/assets/images/gallery/8.JPG"},
+        {"src": "/assets/images/gallery/9.JPG"},
+        {"src": "/assets/images/gallery/10.JPG"},
+        {"src": "/assets/images/gallery/12.JPG"},
+        {"src": "/assets/images/gallery/13.JPG"},
+        {"src": "/assets/images/gallery/14.JPG"}
     ]
 }
