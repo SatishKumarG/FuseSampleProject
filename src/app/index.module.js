@@ -31,6 +31,9 @@
 			
 			 // Sitaram
             'app.sitaram',
+			
+			//Srinivas Choppari
+			 'app.workbench',
 
         ]);
 })();
