@@ -1,3 +1,8 @@
-<h1>
-    {{vm.tutorialsText}}
-</h1>
+<div class="tutorials-page-container">
+    <h1>
+        {{vm.tutorialsText}}
+    </h1>
+    <ul class="tutorials-galleryList">
+        <li class="tutorialsListImg" ng-repeat="obj in vm.images"><a href="{{obj.url}}" target="_blank"><img src="{{obj.src}}" alt="{{obj.tooltip}}" title="{{obj.tooltip}}"/></a></li>
+    </ul>
+</div>

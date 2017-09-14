@@ -42,7 +42,7 @@
 
         msNavigationServiceProvider.saveItem('fuse.tutorials', {
             title    : 'Tutorials',
-            icon     : 'icon-tile-four',
+            icon     : 'icon-image',
             state    : 'app.tutorials',
             /*stateParams: {
                 'param1': 'page'

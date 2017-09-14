@@ -1,0 +1,29 @@
+.tutorials-page-container{
+    padding:20px;
+    height:auto;
+    margin: 5px auto;
+    width: auto;
+    background-color: white;
+    display: inline-block;
+    .heading{
+        padding-left:20px
+    }
+    .tutorials-galleryList{
+        background-color: white;
+        list-style: none;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        padding-left:40px;
+        .tutorialsListImg{
+            width: 33%;
+            float: left;
+            padding: 20px;
+            background-color: white;
+            img{
+                height: 100px;
+                max-width: 360px;
+            }
+        }
+    }
+}
