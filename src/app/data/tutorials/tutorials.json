@@ -1,5 +1,22 @@
 {
     "data": {
-        "tutorialsText": "Welcome to Tutorials Page !!!"
+        "tutorialsText": "Welcome to Tutorials Page !!!",
+        "images":[
+        {"src": "/assets/images/tutorialLogos/ajax.png", "url" : "https://developer.mozilla.org/en-US/docs/AJAX/Getting_Started", "tooltip": "Ajax"},
+        {"src": "/assets/images/tutorialLogos/angular.png", "url" : "https://docs.angularjs.org/tutorial/step_00", "tooltip": "Angular 1.x"},
+        {"src": "/assets/images/tutorialLogos/angular2.png", "url" : "https://angular.io/", "tooltip": "Angular 2"},
+        {"src": "/assets/images/tutorialLogos/backbone.png", "url" : "http://backbonejs.org/", "tooltip" : "Backbone"},
+        {"src": "/assets/images/tutorialLogos/bootstrap.png", "url" : "https://getbootstrap.com/docs/3.3/getting-started/", "tooltip": "Bootstrap"},
+        {"src": "/assets/images/tutorialLogos/chaplin.png", "url" : "http://chaplinjs.org/", "tooltip": "ChaplinJS"},
+        {"src": "/assets/images/tutorialLogos/ember.png", "url" : "https://www.emberjs.com/", "tooltip": "EmberJS"},
+        {"src": "/assets/images/tutorialLogos/extjs.png", "url" : "http://docs.sencha.com/extjs/6.5.1/guides/quick_start/introduction.html", "tooltip": "ExtJS"},
+        {"src": "/assets/images/tutorialLogos/HTML5.png", "url" : "https://www.tutorialspoint.com/html5/", "tooltip": "HTML5"},
+        {"src": "/assets/images/tutorialLogos/javascript.png", "url" : "https://javascript.info/", "tooltip": "Javascript"},
+        {"src": "/assets/images/tutorialLogos/jQuery.gif", "url" : "https://learn.jquery.com/", "tooltip": "JQuery"},
+        {"src": "/assets/images/tutorialLogos/knockout.png", "url" : "http://knockoutjs.com/", "tooltip": "Knockout"},
+        {"src": "/assets/images/tutorialLogos/react.png", "url" : "https://www.tutorialspoint.com/reactjs/", "tooltip": "ReactJS"},
+        {"src": "/assets/images/tutorialLogos/sap-ui5.png", "url" : "https://sapui5.hana.ondemand.com/#/topic/8b49fc198bf04b2d9800fc37fecbb218", "tooltip": "SapUI5"},
+        {"src": "/assets/images/tutorialLogos/typescript.png", "url" : "https://www.tutorialspoint.com/typescript/", "tooltip": "Typescript"}
+    ]
     }
 }

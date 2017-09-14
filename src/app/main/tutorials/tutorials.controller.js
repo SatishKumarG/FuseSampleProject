@@ -13,6 +13,7 @@
 
         // Data
         vm.tutorialsText = SampleData.data.tutorialsText;
+        vm.images = SampleData.data.images;
 
         // Methods
 
