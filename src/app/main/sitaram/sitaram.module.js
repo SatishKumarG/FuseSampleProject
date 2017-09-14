@@ -3,11 +3,11 @@
     'use strict';
 
     angular
-        .module('app.sitaram', [])
+        .module('app.sitaram', ["chart.js"])
         .config(config);
 
     /** @ngInject */
-    function config($stateProvider, $translatePartialLoaderProvider, msApiProvider, msNavigationServiceProvider)
+    function config($stateProvider, $translatePartialLoaderProvider, msApiProvider, msNavigationServiceProvider, ChartJsProvider)
     {
         // State
         $stateProvider
@@ -26,6 +26,17 @@
                     }
                 }
             });
+
+        // Configure all charts 
+        ChartJsProvider.setOptions({
+            chartColors: ['#FF5252', '#FF8A80'],
+            responsive: false
+        });
+
+        // Configure all line charts 
+        ChartJsProvider.setOptions('line', {
+            showLines: false
+        });
 
         // Translation
         $translatePartialLoaderProvider.addPart('app/main/sitaram');
