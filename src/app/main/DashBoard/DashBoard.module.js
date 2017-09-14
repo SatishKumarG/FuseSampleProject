@@ -42,7 +42,7 @@
 
         msNavigationServiceProvider.saveItem('fuse.DashBoard', {
             title    : 'DashBoard',
-            icon     : 'icon-tile-four',
+            icon     : 'icon-view-dashboard', 
             state    : 'app.DashBoard',
             /*stateParams: {
                 'param1': 'page'
