@@ -1,0 +1,18 @@
+{
+    "data": {
+        "imgGallery": "Image Gallery"
+    },
+    "images":[
+        {"src": "/assets/images/gallery/1.JPEG"},
+        {"src": "/assets/images/gallery/2.JPEG"},
+        {"src": "/assets/images/gallery/3.JPEG"},
+        {"src": "/assets/images/gallery/4.JPEG"},
+        {"src": "/assets/images/gallery/5.JPEG"},
+        {"src": "/assets/images/gallery/6.JPEG"},
+        {"src": "/assets/images/gallery/7.JPEG"},
+        {"src": "/assets/images/gallery/8.JPEG"},
+        {"src": "/assets/images/gallery/10.JPEG"},
+        {"src": "/assets/images/gallery/11.JPEG"},
+        {"src": "/assets/images/gallery/12.JPEG"}
+    ]
+}

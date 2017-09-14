@@ -23,6 +23,9 @@
             // Sample
             'app.sample',
 			
+			// Image Gallery
+            'app.gallery',
+			
 			//Tutorials
 			'app.tutorials',
 			
