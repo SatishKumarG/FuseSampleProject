@@ -1,5 +1,7 @@
 {
     "data": {
-        "helloText": "WorkBench Page..!"
+        "headLine": "Demo of Expansion Panel (Accordian Component) [angular-material-expansion-panel]",
+       "content":  ""
+                    
     }
 }

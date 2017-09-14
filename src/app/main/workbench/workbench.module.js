@@ -3,7 +3,8 @@
     'use strict';
 
     angular
-        .module('app.workbench', [])
+    .module('app.workbench', ['ngMaterial', 'material.components.expansionPanels'])
+       
         .config(config);
 
     /** @ngInject */
