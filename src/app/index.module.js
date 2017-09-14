@@ -22,6 +22,7 @@
 
             // Sample
             'app.sample',
+            'app.DashBoard',
 			
 			// Image Gallery
             'app.gallery',
