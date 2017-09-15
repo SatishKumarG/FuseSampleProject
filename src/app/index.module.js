@@ -32,5 +32,8 @@
 			 // Sitaram
             'app.sitaram',
 
+            //reports
+            'app.report',
+
         ]);
 })();
