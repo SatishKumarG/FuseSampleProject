@@ -1,3 +1,32 @@
-<h1>
+
+<div class="Dashpage">
+	<div layout="row" layout-xs="column" >
+    <div flex="50">
+    {{vm.lineChartData.Title}} 
+    <canvas id="line" class="chart chart-line" chart-data="vm.lineChartData.data" chart-labels="vm.lineChartData.labels" 
+    chart-series="vm.lineChartData.series" chart-options="vm.lineChartData.options" chart-dataset-override="vm.lineChartData.datasetOverride" chart-click="vm.lonClick">
+</canvas>
+ </div>
+    <div flex="50">
+    {{vm.barChartData.Title}} 
+    	 <canvas id="bar" class="chart chart-bar" chart-data="vm.barChartData.data" chart-labels="vm.barChartData.labels" chart-series="vm.barChartData.series"> </canvas>
+    </div>
+</div>
+</div>
+<!-- <div class="Dashpage">
+<div layout="row" layout-xs="column">
+    <div flex="50">
     {{vm.helloText}} 
-</h1>
+    	 <canvas id="doughnut"   class="chart chart-doughnut"
+  chart-data="vm.data" chart-labels="vm.labels">
+</canvas> 
+ </div>
+    <div flex="50">
+    {{vm.helloText}} 
+    	 <canvas type="doughnut" class="chart chart-doughnut"
+  chart-data="vm.data" chart-labels="vm.labels" chart-options="vm.options">
+</canvas> 
+    </div>
+</div>
+</div> -->
+

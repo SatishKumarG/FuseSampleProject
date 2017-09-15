@@ -3,7 +3,7 @@
     'use strict';
 
     angular
-        .module('app.DashBoard', [])
+        .module('app.DashBoard', ['chart.js'])
         .config(config);
 
     /** @ngInject */
@@ -20,7 +20,7 @@
                     }
                 },
                 resolve: {
-                    SampleData: function (msApi)
+                    DashBoardsData: function (msApi)
                     {
                         return msApi.resolve('DashBoard@get');
                     }

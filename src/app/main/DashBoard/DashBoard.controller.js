@@ -7,15 +7,14 @@
         .controller('DashBoardController', DashBoardController);
 
     /** @ngInject */
-    function DashBoardController(SampleData)
+    function DashBoardController(DashBoardsData)
     {
         var vm = this;
 
         // Data
-        vm.helloText = SampleData.data.helloText;
+        vm.helloText = DashBoardsData.data.helloText;
+        vm.lineChartData = DashBoardsData.lineChartData;
+        vm.barChartData = DashBoardsData.barChartData;
 
-        // Methods
-
-        //////////
     }
 })();
