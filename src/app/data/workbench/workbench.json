@@ -1,7 +1,58 @@
 {
     "data": {
         "headLine": "Demo of Expansion Panel (Accordian Component) [angular-material-expansion-panel]",
-       "content":  ""
-                    
-    }
+        "content": ""
+    },
+    "xamarin": [
+        {
+            "prerequisites": "Native Look and Feel",
+            "xamarin": "8/10"
+        },
+        {
+            "prerequisites": "Community",
+            "xamarin": "9/10"
+        },
+        {
+            "prerequisites": "DOCS",
+            "xamarin": "8/10"
+        },
+        {
+            "prerequisites": "Tool",
+            "xamarin": "Powerful CLI , Ionic SDK"
+        },
+        {
+            "prerequisites": "Pors",
+            "xamarin": "Work withpredefines components , Greate community , Command Line interface."
+        },
+        {
+            "prerequisites": "Cons",
+            "xamarin": "You need to have AngularJS knowledge to do complex things"
+        }
+    ],
+     "Phonegap": [
+        {
+            "prerequisites": "Native Look and Feel",
+            "Phonegap": "8/10"
+        },
+        {
+            "prerequisites": "Community",
+            "Phonegap": "9/10"
+        },
+        {
+            "prerequisites": "DOCS",
+            "Phonegap": "8/10"
+        },
+        {
+            "prerequisites": "Tool",
+            "Phonegap": "Powerful CLI , Ionic SDK"
+        },
+        {
+            "prerequisites": "Pors",
+            "Phonegap": "Work withpredefines components , Greate community , Command Line interface."
+        },
+        {
+            "prerequisites": "Cons",
+            "Phonegap": "You need to have AngularJS knowledge to do complex things"
+        }
+    ]
 }
