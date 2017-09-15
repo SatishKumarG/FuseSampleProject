@@ -22,6 +22,7 @@
 
             // Sample
             'app.sample',
+            'app.DashBoard',
 			
 			// Image Gallery
             'app.gallery',
@@ -31,6 +32,9 @@
 			
 			 // Sitaram
             'app.sitaram',
+			
+			//Srinivas Choppari
+			 'app.workbench',
 
             //reports
             'app.report',
