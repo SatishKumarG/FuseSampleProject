@@ -1,4 +1,4 @@
-/** satish 
+/** satish Pradeep
  *  Welcome to your gulpfile!
  *  The gulp tasks are splitted in several files in the gulp directory
  *  because putting all here was really too long
