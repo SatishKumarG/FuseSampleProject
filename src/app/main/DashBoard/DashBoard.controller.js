@@ -15,6 +15,8 @@
         vm.helloText = DashBoardsData.data.helloText;
         vm.lineChartData = DashBoardsData.lineChartData;
         vm.barChartData = DashBoardsData.barChartData;
+        vm.ploarChartData = DashBoardsData.ploarChartData;
+         vm.radarChartData = DashBoardsData.radarChartData;
 
     }
 })();
