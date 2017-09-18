@@ -39,7 +39,7 @@
             //reports
             'app.report',
 
-            //online
+            //satish
             'app.online'
 
         ]);
