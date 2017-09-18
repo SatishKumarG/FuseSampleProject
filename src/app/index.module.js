@@ -39,5 +39,8 @@
             //reports
             'app.report',
 
+            //online
+            'app.online'
+
         ]);
 })();

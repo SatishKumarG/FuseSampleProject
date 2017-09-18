@@ -1,0 +1,18 @@
+{
+    "data": {
+        "onlineTest": "Online Test"
+    },
+    "questions":[
+        {"Q":"1+1",
+            "options":[{
+                    "op":"3-1"},{
+                    "op":"0"},{
+                    "op":"4*2+1"},{
+                    "op":"1"}
+            ],
+            "answer":"3-1",
+            "id":true
+        }
+        
+    ]
+}
