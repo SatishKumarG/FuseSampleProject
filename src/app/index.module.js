@@ -30,9 +30,6 @@
 			//Tutorials
 			'app.tutorials',
 			
-			 // Sitaram
-            'app.sitaram',
-			
 			//Srinivas Choppari
 			 'app.workbench',
 
