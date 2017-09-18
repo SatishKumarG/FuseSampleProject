@@ -22,6 +22,8 @@
 
             // Sample
             'app.sample',
+
+            // Murali
             'app.DashBoard',
 			
 			// Image Gallery
