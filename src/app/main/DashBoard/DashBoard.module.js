@@ -26,6 +26,7 @@
                     }
                 }
             });
+            
 
         // Translation
         $translatePartialLoaderProvider.addPart('app/main/DashBoard');
