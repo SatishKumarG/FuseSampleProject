@@ -39,7 +39,7 @@
             //reports
             'app.report',
 
-            //online
+            //online module code
             'app.online'
 
         ]);

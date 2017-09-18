@@ -18,8 +18,7 @@
 
      //msFormWizard
       oc.questions=onlineTest.questions;
-      console.log(oc.questions);
-      
+
 
 
        // vm.myName = OnlineData.images;
