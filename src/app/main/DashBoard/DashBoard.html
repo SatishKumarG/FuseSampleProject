@@ -13,20 +13,20 @@
     </div>
 </div>
 </div>
-<!-- <div class="Dashpage">
+<div class="Dashpage">
 <div layout="row" layout-xs="column">
     <div flex="50">
-    {{vm.helloText}} 
-    	 <canvas id="doughnut"   class="chart chart-doughnut"
-  chart-data="vm.data" chart-labels="vm.labels">
+    {{vm.ploarChartData.Title}} 
+    	 <canvas id="pie" class="chart chart-pie"
+  chart-data="vm.ploarChartData.data" chart-labels="vm.ploarChartData.labels" chart-options="options">
 </canvas> 
  </div>
     <div flex="50">
-    {{vm.helloText}} 
-    	 <canvas type="doughnut" class="chart chart-doughnut"
-  chart-data="vm.data" chart-labels="vm.labels" chart-options="vm.options">
-</canvas> 
+    {{vm.radarChartData.Title}} 
+    	<canvas id="radar" class="chart chart-radar"
+  chart-data="vm.radarChartData.data" chart-options="options" chart-labels="vm.radarChartData.labels">
+</canvas>  
     </div>
 </div>
-</div> -->
+</div>
 
