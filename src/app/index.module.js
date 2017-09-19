@@ -22,6 +22,8 @@
 
             // Sample
             'app.sample',
+
+            // Murali
             'app.DashBoard',
 			
 			// Image Gallery
@@ -39,7 +41,7 @@
             //reports
             'app.report',
 
-            //online module code
+            //online
             'app.online'
 
         ]);
