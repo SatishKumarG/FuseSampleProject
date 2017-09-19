@@ -20,14 +20,30 @@
             // instance.remove('panelOne');
             // instance.remove('panelTwo', { animation: false });
         });
+        
+        vm.gridOptions = WorkBenchData.xamarin;
+        vm.gridOptions1 = WorkBenchData.Phonegap;
 
-        vm.handleAllPanels = function () {
+        vm.handleAllPanels = function (tabName) {
+            // debugger;
+
+            vm.gridOptions1 = WorkBenchData.Phonegap;
+
             $mdExpansionPanel('panelOne').collapse();
             $mdExpansionPanel('panelTwo').collapse();
             $mdExpansionPanel('panelThree').collapse();
             $mdExpansionPanel('panelFour').collapse();
-             $mdExpansionPanel('panelFive').collapse();
-        }
+            $mdExpansionPanel('panelFive').collapse();
+        };
+        /* vm.gridOptions = {
+             columnDefs: [
+                 { field: 'id', displayName: 'Id' },
+                 { field: 'name', displayName: 'Name' },
+                 { name: 'edit', displayName: 'Edit', cellTemplate: '<button id="editBtn" type="button" class="btn-small" ng-click="edit(row.entity)" >Edit</button> ' }
+             ]
+         };
+ */
+
         // Methods
 
         //////////
