@@ -8,8 +8,8 @@
   <md-expansion-panel md-component-id="panelOne">
 
     <md-expansion-panel-collapsed>
-      <div class="md-title" ng-click="vm.handleAllPanels();">Xamarin</div>
-      <div class="md-summary" ng-click="vm.handleAllPanels();">Hybrid App Development Framework</div>
+      <div class="md-title" ng-click="vm.handleAllPanels('xamarin');">Xamarin</div>
+      <div class="md-summary" ng-click="vm.handleAllPanels('xamarin');">Hybrid App Development Framework</div>
       <md-expansion-panel-icon></md-expansion-panel-icon>
     </md-expansion-panel-collapsed>
 
@@ -17,19 +17,23 @@
     <md-expansion-panel-expanded>
 
       <md-expansion-panel-header>
-        <div class="md-title" ng-click="vm.handleAllPanels();">Xamarin</div>
-        <div class="md-summary" ng-click="vm.handleAllPanels();">Hybrid App Development Framework</div>
+        <div class="md-title" ng-click="vm.handleAllPanels('xamarin');">Xamarin</div>
+        <div class="md-summary" ng-click="vm.handleAllPanels('xamarin');">Hybrid App Development Framework</div>
         <md-expansion-panel-icon></md-expansion-panel-icon>
       </md-expansion-panel-header>
 
       <md-expansion-panel-content>
-        <h4>Content</h4>
-        <p>Sample comes here...</p>
+        <div class="gridStyle"  ui-grid="{ data: vm.gridOptions }" ui-grid-edit ui-grid-selection style="height:240px"></div>
+        <p>Xamarin is a Microsoft-owned San Francisco, a California-based software company founded in May 2011 which has cross-platform implementations of the Common Language Infrastructure (CLI) and Common Language Specifications (often called Microsoft .NET).
+
+With a C# shared codebase, developers can use Xamarin tools to write native Android, iOS, and Windows apps with native user interfaces and share code across multiple platforms, including Windows and MacOS. Xamarin is the top hybrid mobile app development framework. It saves your time regarding re-utilizing abilities, tools, teams and the best significant part is code. You can influence the array of Xamarin and Android APIs as well as design an amazing experience for glass with the Android SDK and GDK.
+
+ <a href="https://www.xamarin.com">Link: https://www.xamarin.com</a></p>
       </md-expansion-panel-content>
 
       <md-expansion-panel-footer>
         <div flex></div>
-        <md-button class="md-warn" ng-click="$panel.collapse();vm.handleAllPanels();">Collapse</md-button>
+        <md-button class="md-warn" ng-click="$panel.collapse();vm.handleAllPanels('xamarin');">Collapse</md-button>
       </md-expansion-panel-footer>
 
     </md-expansion-panel-expanded>
@@ -38,88 +42,95 @@
 
   <md-expansion-panel md-component-id="panelTwo">
     <md-expansion-panel-collapsed>
-      <div class="md-title" ng-click="vm.handleAllPanels();">Phonegap</div>
-      <div class="md-summary" ng-click="vm.handleAllPanels();">Hybrid App Development Framework</div>
+      <div class="md-title" ng-click="vm.handleAllPanels('Phonegap');">Phonegap</div>
+      <div class="md-summary" ng-click="vm.handleAllPanels('Phonegap');">Hybrid App Development Framework</div>
       <md-expansion-panel-icon></md-expansion-panel-icon>
     </md-expansion-panel-collapsed>
     <md-expansion-panel-expanded>
       <md-expansion-panel-header>
-        <div class="md-title" ng-click="vm.handleAllPanels();"> Phonegap</div>
-        <div class="md-summary" ng-click="vm.handleAllPanels();">Hybrid App Development Framework</div>
+        <div class="md-title" ng-click="vm.handleAllPanels('Phonegap');"> Phonegap</div>
+        <div class="md-summary" ng-click="vm.handleAllPanels('Phonegap');">Hybrid App Development Framework</div>
         <md-expansion-panel-icon></md-expansion-panel-icon>
       </md-expansion-panel-header>
       <md-expansion-panel-content>
-        <p>Sample comes here...</p>
+        <div class="gridStyle"  ui-grid="{ data: vm.gridOptions1 }" ui-grid-edit ui-grid-selection style="height:240px"></div>
+        <p>This is the most popular cross-platform framework for mobile hybrid application development. From the team behind Apache Cordova, the Adobe PhoneGap framework is an open source distribution of Cordova framework. With Phonegap, you can reuse existing web development skills to quickly make hybrid applications built with HTML, CSS, and JavaScript for multiple platforms with a single codebase so you can reach your audience no matter their device.
+
+The core of Apache Cordova applications uses CSS3 and HTML5 for their rendering and JavaScript for their logic. HTML5 provides access to underlying hardware such as the accelerometer, camera, and GPS. However, browsers' support for HTML5-based device access is not consistent across mobile browsers, particularly older versions of Android. To overcome these limitations, Apache Cordova embeds the HTML5 code inside a native WebView on the device, using a foreign function interface to access the native resources of it.
+
+Apache Cordova can be extended with native plug-ins, allowing developers to add more functionalities that can be called from JavaScript, making it communicate directly between the native layer and the HTML5 page. These plugins allow access to the device's accelerometer, camera, compass, file system, microphone, and more.
+
+ <a href="http://phonegap.com">Link: http://phonegap.com</a></p>
       </md-expansion-panel-content>
       <md-expansion-panel-footer>
         <div flex></div>
-        <md-button class="md-warn" ng-click="$panel.collapse()">Collapse</md-button>
+        <md-button class="md-warn" ng-click="$panel.collapse('Phonegap')">Collapse</md-button>
       </md-expansion-panel-footer>
     </md-expansion-panel-expanded>
   </md-expansion-panel>
 
   <md-expansion-panel md-component-id="panelThree">
     <md-expansion-panel-collapsed>
-      <div class="md-title" ng-click="vm.handleAllPanels();">Ionic Framework</div>
-      <div class="md-summary" ng-click="vm.handleAllPanels();">Hybrid App Development Framework</div>
+      <div class="md-title" ng-click="vm.handleAllPanels('Ionic');">Ionic Framework</div>
+      <div class="md-summary" ng-click="vm.handleAllPanels('Ionic');">Hybrid App Development Framework</div>
       <md-expansion-panel-icon></md-expansion-panel-icon>
     </md-expansion-panel-collapsed>
     <md-expansion-panel-expanded>
       <md-expansion-panel-header>
-        <div class="md-title" ng-click="vm.handleAllPanels();"> Ionic Framework</div>
-        <div class="md-summary" ng-click="vm.handleAllPanels();">Hybrid App Development Framework</div>
+        <div class="md-title" ng-click="vm.handleAllPanels('Ionic');"> Ionic Framework</div>
+        <div class="md-summary" ng-click="vm.handleAllPanels('Ionic');">Hybrid App Development Framework</div>
         <md-expansion-panel-icon></md-expansion-panel-icon>
       </md-expansion-panel-header>
       <md-expansion-panel-content>
-        <p>Sample comes here...</p>
+        <div class="gridStyle"  ui-grid="{ data: vm.gridOptions1 }" ui-grid-edit ui-grid-selection style="height:240px"></div>
       </md-expansion-panel-content>
       <md-expansion-panel-footer>
         <div flex></div>
-        <md-button class="md-warn" ng-click="$panel.collapse()">Collapse</md-button>
+        <md-button class="md-warn" ng-click="$panel.collapse('Ionic')">Collapse</md-button>
       </md-expansion-panel-footer>
     </md-expansion-panel-expanded>
   </md-expansion-panel>
 
   <md-expansion-panel md-component-id="panelFour">
     <md-expansion-panel-collapsed>
-      <div class="md-title" ng-click="vm.handleAllPanels();">Framework 7</div>
-      <div class="md-summary" ng-click="vm.handleAllPanels();">Hybrid App Development Framework</div>
+      <div class="md-title" ng-click="vm.handleAllPanels('framework7');">Framework 7</div>
+      <div class="md-summary" ng-click="vm.handleAllPanels('framework7');">Hybrid App Development Framework</div>
       <md-expansion-panel-icon></md-expansion-panel-icon>
     </md-expansion-panel-collapsed>
     <md-expansion-panel-expanded>
       <md-expansion-panel-header>
-        <div class="md-title" ng-click="vm.handleAllPanels();"> Framework 7</div>
-        <div class="md-summary" ng-click="vm.handleAllPanels();">Hybrid App Development Framework</div>
+        <div class="md-title" ng-click="vm.handleAllPanels('framework7');"> Framework 7</div>
+        <div class="md-summary" ng-click="vm.handleAllPanels('framework7');">Hybrid App Development Framework</div>
         <md-expansion-panel-icon></md-expansion-panel-icon>
       </md-expansion-panel-header>
       <md-expansion-panel-content>
-        <p>Sample comes here...</p>
+       <div class="gridStyle"  ui-grid="{ data: vm.gridOptions1 }" ui-grid-edit ui-grid-selection style="height:240px"></div>
       </md-expansion-panel-content>
       <md-expansion-panel-footer>
         <div flex></div>
-        <md-button class="md-warn" ng-click="$panel.collapse()">Collapse</md-button>
+        <md-button class="md-warn" ng-click="$panel.collapse('framework7')">Collapse</md-button>
       </md-expansion-panel-footer>
     </md-expansion-panel-expanded>
   </md-expansion-panel>
 
   <md-expansion-panel md-component-id="panelFive">
     <md-expansion-panel-collapsed>
-      <div class="md-title" ng-click="vm.handleAllPanels();">Mobile Angular UI</div>
-      <div class="md-summary" ng-click="vm.handleAllPanels();">Hybrid App Development Framework</div>
+      <div class="md-title" ng-click="vm.handleAllPanels('mobileAngularUI');">Mobile Angular UI</div>
+      <div class="md-summary" ng-click="vm.handleAllPanels('mobileAngularUI');">Hybrid App Development Framework</div>
       <md-expansion-panel-icon></md-expansion-panel-icon>
     </md-expansion-panel-collapsed>
     <md-expansion-panel-expanded>
       <md-expansion-panel-header>
-        <div class="md-title" ng-click="vm.handleAllPanels();"> Mobile Angular UI</div>
-        <div class="md-summary" ng-click="vm.handleAllPanels();">Hybrid App Development Framework</div>
+        <div class="md-title" ng-click="vm.handleAllPanels('mobileAngularUI');"> Mobile Angular UI</div>
+        <div class="md-summary" ng-click="vm.handleAllPanels('mobileAngularUI');">Hybrid App Development Framework</div>
         <md-expansion-panel-icon></md-expansion-panel-icon>
       </md-expansion-panel-header>
       <md-expansion-panel-content>
-        <p>Sample comes here...</p>
+        <div class="gridStyle"  ui-grid="{ data: vm.gridOptions1 }" ui-grid-edit ui-grid-selection style="height:240px"></div>
       </md-expansion-panel-content>
       <md-expansion-panel-footer>
         <div flex></div>
-        <md-button class="md-warn" ng-click="$panel.collapse()">Collapse</md-button>
+        <md-button class="md-warn" ng-click="$panel.collapse('mobileAngularUI')">Collapse</md-button>
       </md-expansion-panel-footer>
     </md-expansion-panel-expanded>
   </md-expansion-panel>
